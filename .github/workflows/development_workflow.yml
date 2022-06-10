@@ -20,8 +20,6 @@ jobs:
     environment: development
     runs-on: dev-kolosov
     steps:
-      - name: Down auth container
-        run: docker compose down
 
       - name: Up auth container
         run: docker compose up -d
