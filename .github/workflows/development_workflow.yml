@@ -1,0 +1,28 @@
+name: 01. CI\CD Development workflow
+
+on:
+  push:
+    branches: [dev]
+
+jobs:
+  test:
+    name: Testing dummy homepage
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+
+      - name: Path
+        run: pwd
+
+  deploy:
+    name: Deploy to development server
+    environment: development
+    runs-on: dev-kolosov
+    steps:
+      - name: Down auth container
+        run: docker compose down
+
+      - name: Up auth container
+        run: docker compose up -d
+
