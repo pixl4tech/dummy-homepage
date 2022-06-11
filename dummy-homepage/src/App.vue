@@ -24,7 +24,7 @@
         <a-menu-item key="1">Main page</a-menu-item>
         <a-menu-item key="2">About</a-menu-item>
         <a-menu-item key="3">Blog</a-menu-item>
-        <a-menu-item key="4">Test</a-menu-item>
+        <a-menu-item key="4">Test2</a-menu-item>
       </a-menu>
      
     </a-layout-header>
