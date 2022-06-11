@@ -6,7 +6,7 @@
         <div class="logo" style="float:left;"><a href="/"><img src="logo.svg" alt=""></a></div>
         </Col>
 
-        <Col xs={24} xl={8}>
+        <Col xs={24} xl={8} style="width: 40%;">
       <a-menu
         v-model:selectedKeys="selectedKeys"
         mode="horizontal"
