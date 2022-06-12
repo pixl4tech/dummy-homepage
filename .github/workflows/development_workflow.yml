@@ -17,6 +17,7 @@ jobs:
 
   deploy:
     name: Deploy to development server
+    needs: [test]
     environment: development
     runs-on: dev-kolosov
     steps:

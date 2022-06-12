@@ -41,7 +41,7 @@
     <a-layout-content :style="{ background: '#45207E'}">
       <HelloWorld />
     </a-layout-content>
-    <a-layout-footer style="text-align: left; min-height: 60px; height:auto; font-size:13px; padding: 20px 50px">
+    <a-layout-footer style="text-align: left; min-height: 60px; height:auto; font-size:13px; padding: 20px 45px 0px 50px">
             <Row>
         <Col xs={24} xl={12}>
       <p style="float: left">Kolosov.dev © 2022 Software Developer</p> 
