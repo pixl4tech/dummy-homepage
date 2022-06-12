@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    name: Testing dummy homepage
+    name: 001. Testing dummy homepage
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch
@@ -16,7 +16,7 @@ jobs:
         run: pwd
 
   deploy:
-    name: Deploy to development server
+    name: 002. Deploy to development server
     needs: [test]
     environment: development
     runs-on: dev-kolosov
