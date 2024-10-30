@@ -20,9 +20,6 @@
 
         <Col xs={24} xl={8} style="margin-left: auto; order: 2;">
        <div style="float:right; color:#000; margin-top: 8px;">
-          <div style="float: left; margin-right: 15px;">
-            <a-button type="dashed" ghost>Resume</a-button>
-          </div>
 
           <div class="social" style="float: left; font-size: 24px;">
             <a href="https://www.linkedin.com/in/pixl4tech/"><linkedin-filled /></a>
@@ -44,7 +41,7 @@
     <a-layout-footer style="text-align: left; min-height: 60px; height:auto; font-size:13px; padding: 20px 45px 0px 50px">
             <Row>
         <Col xs={24} xl={12}>
-      <p style="float: left">Kolosov.dev © 2022 Software Developer</p> 
+      <p style="float: left">Kolosov.dev © 2024 Software Developer</p>
       </Col>
         <Col xs={24} xl={12} style="margin-left: auto; order: 2;">
       <div class="footer-link" style="float: right">

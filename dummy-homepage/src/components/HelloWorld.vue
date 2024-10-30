@@ -2,10 +2,11 @@
   <div style="padding: 90px 0px;">
     <center><img src="hello.svg" alt="" style="width: 50%;"></center>
     <center>
-      <p class="desc" style="margin: 35px 0px 40px 0px;">
+      <p class="desc" style="margin: 35px 0px 30px 0px;">
         My <b>passion</b> is digital products. Combining my own <b>creative</b> and <b>technical</b> skills,<br> 
 I bring <b>original</b> and fresh ideas to life. I love <b>sharing</b> my experiences and thoughts. <br> 
-If you are interested in what I do, you can <b>follow</b> me.<br> 
+I’m working on something exciting here about <b>programming</b> and <b>technology</b>.<br>
+In the meantime, feel free to <b>connect</b> with me on <b>social</b> media!
       </p>
     </center>
     <div class="main-themes" style="background-image: url('themes.svg')">
@@ -13,10 +14,15 @@ If you are interested in what I do, you can <b>follow</b> me.<br>
         <img class="main-ava" src="ava.png" alt="">
       </center>
     </div> 
-
+    <center>
+      <p class="desc" style="margin: 35px 0px 40px 0px;">
+        <a href="https://www.linkedin.com/in/pixl4tech/">Contact Me</a> 𐤟
+         <a href="Profile.pdf">Download CV</a>
+      </p>
     <div class="under-construction" style="background-image: url('under-construction.svg')">
       <p>{ ... website under construction ... }</p>
     </div>   
+    </center>
   </div>
 </template>
 
@@ -79,7 +85,9 @@ export default {
     font-weight: 200;
 }
 
-
+a {
+    color: #cbbfff;
+}
 
 h3 {
   margin: 40px 0 0;
@@ -92,7 +100,5 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-a {
-  color: #42b983;
-}
+
 </style>
